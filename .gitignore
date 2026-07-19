@@ -1,0 +1,22 @@
+
+# Local directory for received plugins
+.terraform/
+
+# Hide lock files created during testing/runs
+.terraform.lock.hcl
+
+# Local state management cache assets
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Sensitive variable configuration files
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
+
