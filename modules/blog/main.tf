@@ -155,7 +155,7 @@ resource "aws_lb_target_group" "blog" {
 # }
 
 
-module "autoscaling" {
+module "blog_autoscaling" {
   source  = "terraform-aws-modules/autoscaling/aws"
   version = "9.2.1"
   
